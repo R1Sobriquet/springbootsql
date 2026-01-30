@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -29,7 +30,7 @@ class ProduitRepositoryTest {
         produit.setRegion("Rhone");
         produit.setPrix(10.0);
         produit.setStock(40);
-        produit.setNotes(Arrays.asList("sec", "epices"));
+        produit.setNotes(new ArrayList<>(Arrays.asList("sec", "epices")));
     }
 
     @Test
@@ -74,7 +75,7 @@ class ProduitRepositoryTest {
         produit2.setRegion("Bordeaux");
         produit2.setPrix(25.0);
         produit2.setStock(20);
-        produit2.setNotes(Arrays.asList("tannique", "fruits rouges"));
+        produit2.setNotes(new ArrayList<>(Arrays.asList("tannique", "fruits rouges")));
         produitRepository.save(produit2);
 
         List<Produit> produits = (List<Produit>) produitRepository.findAll();
