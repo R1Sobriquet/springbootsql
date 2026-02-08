@@ -299,7 +299,7 @@ mvn test
 
 1. **Cloner le projet**
    ```bash
-   git clone <url-du-repo>
+   git clone https://github.com/R1Sobriquet/springbootsql/edit/Main
    cd springbootsql
    ```
 
