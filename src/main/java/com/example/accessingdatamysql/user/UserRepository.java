@@ -1,7 +1,6 @@
-package com.example.accessingdatamysql;
+package com.example.accessingdatamysql.user;
 
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User, Integer> {
-
 }

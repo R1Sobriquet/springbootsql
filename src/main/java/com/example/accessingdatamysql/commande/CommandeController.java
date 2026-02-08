@@ -1,8 +1,12 @@
-package com.example.accessingdatamysql;
+package com.example.accessingdatamysql.commande;
 
-import com.example.accessingdatamysql.dto.CommandeRequest;
-import com.example.accessingdatamysql.dto.CommandeResponse;
-import com.example.accessingdatamysql.dto.LigneCommandeRequest;
+import com.example.accessingdatamysql.commande.dto.CommandeRequest;
+import com.example.accessingdatamysql.commande.dto.CommandeResponse;
+import com.example.accessingdatamysql.commande.dto.LigneCommandeRequest;
+import com.example.accessingdatamysql.produit.Produit;
+import com.example.accessingdatamysql.produit.ProduitRepository;
+import com.example.accessingdatamysql.user.User;
+import com.example.accessingdatamysql.user.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,5 +1,6 @@
-package com.example.accessingdatamysql;
+package com.example.accessingdatamysql.commande;
 
+import com.example.accessingdatamysql.produit.Produit;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Entity;
