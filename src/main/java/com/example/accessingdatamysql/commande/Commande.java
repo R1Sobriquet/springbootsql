@@ -1,4 +1,6 @@
-package com.example.accessingdatamysql;
+package com.example.accessingdatamysql.commande;
+
+import com.example.accessingdatamysql.user.User;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;

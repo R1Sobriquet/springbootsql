@@ -1,13 +1,10 @@
-package com.example.accessingdatamysql.dto;
+package com.example.accessingdatamysql.commande.dto;
 
 import java.util.List;
 
 public class CommandeRequest {
     private Integer userId;
     private List<LigneCommandeRequest> lignes;
-
-    public CommandeRequest() {
-    }
 
     public Integer getUserId() {
         return userId;

@@ -1,4 +1,4 @@
-package com.example.accessingdatamysql.dto;
+package com.example.accessingdatamysql.commande.dto;
 
 public class LigneCommandeRequest {
     private String nomProduit;

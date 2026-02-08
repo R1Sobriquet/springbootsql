@@ -1,5 +1,8 @@
 package com.example.accessingdatamysql;
 
+import com.example.accessingdatamysql.produit.Produit;
+import com.example.accessingdatamysql.produit.ProduitRepository;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
